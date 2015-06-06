@@ -1,0 +1,11 @@
+LUNA 9 NOTES:
+
+The "1" key action group is set to decouple the ALS module and discard the brown airbag cover. 
+The "2" action key is set to inflate/deflate the airbags.
+The "0" action group key is set to disable the luna 9 ktdu main engine for landing.
+The "9" action group key is set to extend the ktdu ground sensors.
+
+
+Important notes on luna 9:
+-DO NOT deploy the airbag while it is still attached to the engine unit or your ship will explode because of the bounce module collisions
+-Do not press action key 2 before 1 or it will screw up the animation sequence
