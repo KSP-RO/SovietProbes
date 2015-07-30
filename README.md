@@ -1,4 +1,4 @@
-**I HIGHLY reccommend downloading my Soviet Rockets mod to use with this. It is required to launch all of these probes and you need it to use the craft files.**
+**I HIGHLY reccommend downloading my [Soviet Rockets](https://github.com/KSP-RO/SovietRockets) mod to use with this. It is required to launch all of these probes and you need it to use the craft files.**
 
 So here is yet another project. This time I am working on the series of soviet probes, focusing on the luna and sputnik probes. I will also do Molniya and Polyot probes.
 
