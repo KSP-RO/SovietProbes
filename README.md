@@ -9,7 +9,7 @@ This is a long term project and I will slowly be adding probes to it over time.
 ![alt tag](http://i.imgur.com/J8KtVFF.png)
 
 ##Remotetech Support:
-* If you use remotetech, here is a module manager config to make the probes compatible: [https://www.mediafire.com/?3pnib4l165ly91z](https://www.mediafire.com/?3pnib4l165ly91z)
+* If you use remotetech, here is a module manager config to make the probes compatible: [https://www.dropbox.com/s/4pgwigx27ffp6ta/US_Probes_RT.cfg?dl=0](https://www.dropbox.com/s/4pgwigx27ffp6ta/US_Probes_RT.cfg?dl=0)
 
 ##NOTES ON HOW TO FLY LUNA 9:
 * 1) Use Block L for trans-munar injection
