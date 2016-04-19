@@ -24,8 +24,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = sputnik1.base_4291486572
-	attN = bottom,sputnik1.base_4291486572
+	link = rn.sputnik1.base_4291486572
+	attN = bottom,rn.sputnik1.base_4291486572
 	EVENTS
 	{
 	}
@@ -679,7 +679,7 @@ PART
 }
 PART
 {
-	part = sputnik1.base_4291486572
+	part = rn.sputnik1.base_4291486572
 	partName = Part
 	pos = 1.788139E-06,23.08736,3.091991E-06
 	attPos = 0,0,0
@@ -698,11 +698,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.blok.a.sput_4294427248
-	link = sputnik1.nosecone_4291486518
-	attN = bottom,sputnik1.nosecone_4291486518
+	link = rn.r7.blok.a_4294427248
+	link = rn.sputnik1.nosecone_4291486518
+	attN = bottom,rn.sputnik1.nosecone_4291486518
 	attN = top,sputnik1_4291486770
-	attN = b1,r7.blok.a.sput_4294427248
+	attN = b1,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -797,7 +797,7 @@ PART
 }
 PART
 {
-	part = r7.blok.a.sput_4294427248
+	part = rn.r7.blok.a_4294427248
 	partName = Part
 	pos = 1.788139E-06,10.61819,3.091991E-06
 	attPos = 0,0,0
@@ -816,11 +816,11 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.blok.a.engine_4294427076
-	link = r7.blok.bvgd.sput_4294426342
-	link = r7.blok.bvgd.sput_4294425776
-	link = r7.blok.bvgd.sput_4294425210
-	link = r7.blok.bvgd.sput_4294424644
+	link = rn.r7.blok.a.engine_4294427076
+	link = rn.r7.blok.bvgd_4294426342
+	link = rn.r7.blok.bvgd_4294425776
+	link = rn.r7.blok.bvgd_4294425210
+	link = rn.r7.blok.bvgd_4294424644
 	link = strutConnector_4292399650
 	link = strutConnector_4292399348
 	link = strutConnector_4292399284
@@ -829,8 +829,8 @@ PART
 	link = strutConnector_4292398224
 	link = strutConnector_4292398160
 	link = strutConnector_4292398096
-	attN = top,sputnik1.base_4291486572
-	attN = bottom,r7.blok.a.engine_4294427076
+	attN = top,rn.sputnik1.base_4291486572
+	attN = bottom,rn.r7.blok.a.engine_4294427076
 	EVENTS
 	{
 	}
@@ -863,7 +863,7 @@ PART
 }
 PART
 {
-	part = r7.blok.a.engine_4294427076
+	part = rn.r7.blok.a.engine_4294427076
 	partName = Part
 	pos = 1.788139E-06,1.555323,3.091991E-06
 	attPos = 0,0,0
@@ -882,15 +882,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.vernier.engine.v.fg_4294426782
-	link = r7.vernier.engine.v.fg_4294426672
-	link = r7.vernier.engine.v.fg_4294426562
-	link = r7.vernier.engine.v.fg_4294426452
-	attN = top,r7.blok.a.sput_4294427248
-	attN = 1,r7.vernier.engine.v.fg_4294426452
-	attN = 2,r7.vernier.engine.v.fg_4294426562
-	attN = 3,r7.vernier.engine.v.fg_4294426782
-	attN = 4,r7.vernier.engine.v.fg_4294426672
+	link = rn.r7.vernier.engine.v.fg_4294426782
+	link = rn.r7.vernier.engine.v.fg_4294426672
+	link = rn.r7.vernier.engine.v.fg_4294426562
+	link = rn.r7.vernier.engine.v.fg_4294426452
+	attN = top,rn.r7.blok.a_4294427248
+	attN = 1,rn.r7.vernier.engine.v.fg_4294426452
+	attN = 2,rn.r7.vernier.engine.v.fg_4294426562
+	attN = 3,rn.r7.vernier.engine.v.fg_4294426782
+	attN = 4,rn.r7.vernier.engine.v.fg_4294426672
 	EVENTS
 	{
 	}
@@ -1052,7 +1052,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294426782
+	part = rn.r7.vernier.engine.v.fg_4294426782
 	partName = Part
 	pos = 1.788139E-06,1.099592,-0.8810165
 	attPos = 0,0,0
@@ -1071,8 +1071,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426672
-	attN = top,r7.blok.a.engine_4294427076
+	sym = rn.r7.vernier.engine.v.fg_4294426672
+	attN = top,rn.r7.blok.a.engine_4294427076
 	EVENTS
 	{
 	}
@@ -1316,7 +1316,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294426672
+	part = rn.r7.vernier.engine.v.fg_4294426672
 	partName = Part
 	pos = 1.788139E-06,1.099592,0.8810334
 	attPos = 0,0,0
@@ -1335,8 +1335,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426782
-	attN = top,r7.blok.a.engine_4294427076
+	sym = rn.r7.vernier.engine.v.fg_4294426782
+	attN = top,rn.r7.blok.a.engine_4294427076
 	EVENTS
 	{
 	}
@@ -1580,7 +1580,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294426562
+	part = rn.r7.vernier.engine.v.fg_4294426562
 	partName = Part
 	pos = -0.8810211,1.099592,3.091991E-06
 	attPos = 0,0,0
@@ -1599,8 +1599,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426452
-	attN = top,r7.blok.a.engine_4294427076
+	sym = rn.r7.vernier.engine.v.fg_4294426452
+	attN = top,rn.r7.blok.a.engine_4294427076
 	EVENTS
 	{
 	}
@@ -1844,7 +1844,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294426452
+	part = rn.r7.vernier.engine.v.fg_4294426452
 	partName = Part
 	pos = 0.8810253,1.099592,3.091991E-06
 	attPos = 0,0,0
@@ -1863,8 +1863,8 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426562
-	attN = top,r7.blok.a.engine_4294427076
+	sym = rn.r7.vernier.engine.v.fg_4294426562
+	attN = top,rn.r7.blok.a.engine_4294427076
 	EVENTS
 	{
 	}
@@ -2108,7 +2108,7 @@ PART
 }
 PART
 {
-	part = r7.blok.bvgd.sput_4294426342
+	part = rn.r7.blok.bvgd_4294426342
 	partName = Part
 	pos = -0.8235031,12.32875,3.091991E-06
 	attPos = 0,0,0
@@ -2127,15 +2127,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.bvgd.engine_4294426264
+	link = rn.r7.bvgd.engine_4294426264
 	link = launchClamp1_4294425884
-	link = WING.R7_4294208176
-	sym = r7.blok.bvgd.sput_4294425776
-	sym = r7.blok.bvgd.sput_4294425210
-	sym = r7.blok.bvgd.sput_4294424644
-	srfN = srfAttach,r7.blok.a.sput_4294427248
-	attN = top,r7.bvgd.engine_4294426264
-	attN = wing,WING.R7_4294208176
+	link = rn.WING.R7_4294208176
+	sym = rn.r7.blok.bvgd_4294425776
+	sym = rn.r7.blok.bvgd_4294425210
+	sym = rn.r7.blok.bvgd_4294424644
+	srfN = srfAttach,rn.r7.blok.a_4294427248
+	attN = top,rn.r7.bvgd.engine_4294426264
+	attN = wing,rn.WING.R7_4294208176
 	EVENTS
 	{
 	}
@@ -2272,7 +2272,7 @@ PART
 }
 PART
 {
-	part = r7.bvgd.engine_4294426264
+	part = rn.r7.bvgd.engine_4294426264
 	partName = Part
 	pos = -1.158898,1.825403,3.091991E-06
 	attPos = 0,0,0
@@ -2291,14 +2291,14 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.vernier.engine.v.fg_4294426104
-	link = r7.vernier.engine.v.fg_4294425994
-	sym = r7.bvgd.engine_4294425698
-	sym = r7.bvgd.engine_4294425132
-	sym = r7.bvgd.engine_4294424566
-	attN = top,r7.blok.bvgd.sput_4294426342
-	attN = 1,r7.vernier.engine.v.fg_4294426104
-	attN = 2,r7.vernier.engine.v.fg_4294425994
+	link = rn.r7.vernier.engine.v.fg_4294426104
+	link = rn.r7.vernier.engine.v.fg_4294425994
+	sym = rn.r7.bvgd.engine_4294425698
+	sym = rn.r7.bvgd.engine_4294425132
+	sym = rn.r7.bvgd.engine_4294424566
+	attN = top,rn.r7.blok.bvgd_4294426342
+	attN = 1,rn.r7.vernier.engine.v.fg_4294426104
+	attN = 2,rn.r7.vernier.engine.v.fg_4294425994
 	EVENTS
 	{
 	}
@@ -2460,7 +2460,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294426104
+	part = rn.r7.vernier.engine.v.fg_4294426104
 	partName = Part
 	pos = -2.802063,1.133701,0.4375839
 	attPos = 0,0,0
@@ -2479,10 +2479,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294425538
-	sym = r7.vernier.engine.v.fg_4294424972
-	sym = r7.vernier.engine.v.fg_4294424406
-	attN = top,r7.bvgd.engine_4294426264
+	sym = rn.r7.vernier.engine.v.fg_4294425538
+	sym = rn.r7.vernier.engine.v.fg_4294424972
+	sym = rn.r7.vernier.engine.v.fg_4294424406
+	attN = top,rn.r7.bvgd.engine_4294426264
 	EVENTS
 	{
 	}
@@ -2726,7 +2726,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294425994
+	part = rn.r7.vernier.engine.v.fg_4294425994
 	partName = Part
 	pos = -2.802063,1.133701,-0.4346776
 	attPos = 0,0,0
@@ -2745,10 +2745,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294425428
-	sym = r7.vernier.engine.v.fg_4294424862
-	sym = r7.vernier.engine.v.fg_4294424296
-	attN = top,r7.bvgd.engine_4294426264
+	sym = rn.r7.vernier.engine.v.fg_4294425428
+	sym = rn.r7.vernier.engine.v.fg_4294424862
+	sym = rn.r7.vernier.engine.v.fg_4294424296
+	attN = top,rn.r7.bvgd.engine_4294426264
 	EVENTS
 	{
 	}
@@ -3014,7 +3014,7 @@ PART
 	sym = launchClamp1_4294425318
 	sym = launchClamp1_4294424752
 	sym = launchClamp1_4294424186
-	srfN = srfAttach,r7.blok.bvgd.sput_4294426342
+	srfN = srfAttach,rn.r7.blok.bvgd_4294426342
 	EVENTS
 	{
 	}
@@ -3125,7 +3125,7 @@ PART
 }
 PART
 {
-	part = WING.R7_4294208176
+	part = rn.WING.R7_4294208176
 	partName = Winglet
 	pos = -3.197299,1.887203,2.471236E-07
 	attPos = 0,0,0
@@ -3144,10 +3144,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = WING.R7_4294208080
-	sym = WING.R7_4294208038
-	sym = WING.R7_4294207996
-	attN = top,r7.blok.bvgd.sput_4294426342
+	sym = rn.WING.R7_4294208080
+	sym = rn.WING.R7_4294208038
+	sym = rn.WING.R7_4294207996
+	attN = top,rn.r7.blok.bvgd_4294426342
 	EVENTS
 	{
 	}
@@ -3208,7 +3208,7 @@ PART
 }
 PART
 {
-	part = r7.blok.bvgd.sput_4294425776
+	part = rn.r7.blok.bvgd_4294425776
 	partName = Part
 	pos = 1.788139E-06,12.32875,0.8235134
 	attPos = 0,0,0
@@ -3227,15 +3227,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.bvgd.engine_4294425698
+	link = rn.r7.bvgd.engine_4294425698
 	link = launchClamp1_4294425318
-	link = WING.R7_4294208080
-	sym = r7.blok.bvgd.sput_4294426342
-	sym = r7.blok.bvgd.sput_4294425210
-	sym = r7.blok.bvgd.sput_4294424644
-	srfN = srfAttach,r7.blok.a.sput_4294427248
-	attN = top,r7.bvgd.engine_4294425698
-	attN = wing,WING.R7_4294208080
+	link = rn.WING.R7_4294208080
+	sym = rn.r7.blok.bvgd_4294426342
+	sym = rn.r7.blok.bvgd_4294425210
+	sym = rn.r7.blok.bvgd_4294424644
+	srfN = srfAttach,rn.r7.blok.a_4294427248
+	attN = top,rn.r7.bvgd.engine_4294425698
+	attN = wing,rn.WING.R7_4294208080
 	EVENTS
 	{
 	}
@@ -3372,7 +3372,7 @@ PART
 }
 PART
 {
-	part = r7.bvgd.engine_4294425698
+	part = rn.r7.bvgd.engine_4294425698
 	partName = Part
 	pos = -1.25174E-06,1.825403,1.158903
 	attPos = 0,0,0
@@ -3391,14 +3391,14 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.vernier.engine.v.fg_4294425538
-	link = r7.vernier.engine.v.fg_4294425428
-	sym = r7.bvgd.engine_4294426264
-	sym = r7.bvgd.engine_4294425132
-	sym = r7.bvgd.engine_4294424566
-	attN = top,r7.blok.bvgd.sput_4294425776
-	attN = 1,r7.vernier.engine.v.fg_4294425538
-	attN = 2,r7.vernier.engine.v.fg_4294425428
+	link = rn.r7.vernier.engine.v.fg_4294425538
+	link = rn.r7.vernier.engine.v.fg_4294425428
+	sym = rn.r7.bvgd.engine_4294426264
+	sym = rn.r7.bvgd.engine_4294425132
+	sym = rn.r7.bvgd.engine_4294424566
+	attN = top,rn.r7.blok.bvgd_4294425776
+	attN = 1,rn.r7.vernier.engine.v.fg_4294425538
+	attN = 2,rn.r7.vernier.engine.v.fg_4294425428
 	EVENTS
 	{
 	}
@@ -3560,7 +3560,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294425538
+	part = rn.r7.vernier.engine.v.fg_4294425538
 	partName = Part
 	pos = 0.4375813,1.133701,2.802078
 	attPos = 0,0,0
@@ -3579,10 +3579,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426104
-	sym = r7.vernier.engine.v.fg_4294424972
-	sym = r7.vernier.engine.v.fg_4294424406
-	attN = top,r7.bvgd.engine_4294425698
+	sym = rn.r7.vernier.engine.v.fg_4294426104
+	sym = rn.r7.vernier.engine.v.fg_4294424972
+	sym = rn.r7.vernier.engine.v.fg_4294424406
+	attN = top,rn.r7.bvgd.engine_4294425698
 	EVENTS
 	{
 	}
@@ -3826,7 +3826,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294425428
+	part = rn.r7.vernier.engine.v.fg_4294425428
 	partName = Part
 	pos = -0.434685,1.133701,2.802075
 	attPos = 0,0,0
@@ -3845,10 +3845,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294425994
-	sym = r7.vernier.engine.v.fg_4294424862
-	sym = r7.vernier.engine.v.fg_4294424296
-	attN = top,r7.bvgd.engine_4294425698
+	sym = rn.r7.vernier.engine.v.fg_4294425994
+	sym = rn.r7.vernier.engine.v.fg_4294424862
+	sym = rn.r7.vernier.engine.v.fg_4294424296
+	attN = top,rn.r7.bvgd.engine_4294425698
 	EVENTS
 	{
 	}
@@ -4114,7 +4114,7 @@ PART
 	sym = launchClamp1_4294425884
 	sym = launchClamp1_4294424752
 	sym = launchClamp1_4294424186
-	srfN = srfAttach,r7.blok.bvgd.sput_4294425776
+	srfN = srfAttach,rn.r7.blok.bvgd_4294425776
 	EVENTS
 	{
 	}
@@ -4225,7 +4225,7 @@ PART
 }
 PART
 {
-	part = WING.R7_4294208080
+	part = rn.WING.R7_4294208080
 	partName = Winglet
 	pos = -7.737661E-07,1.887203,3.197309
 	attPos = 0,0,0
@@ -4244,10 +4244,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = WING.R7_4294208176
-	sym = WING.R7_4294208038
-	sym = WING.R7_4294207996
-	attN = top,r7.blok.bvgd.sput_4294425776
+	sym = rn.WING.R7_4294208176
+	sym = rn.WING.R7_4294208038
+	sym = rn.WING.R7_4294207996
+	attN = top,rn.r7.blok.bvgd_4294425776
 	EVENTS
 	{
 	}
@@ -4308,7 +4308,7 @@ PART
 }
 PART
 {
-	part = r7.blok.bvgd.sput_4294425210
+	part = rn.r7.blok.bvgd_4294425210
 	partName = Part
 	pos = 0.823507,12.32875,3.091991E-06
 	attPos = 0,0,0
@@ -4327,15 +4327,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.bvgd.engine_4294425132
+	link = rn.r7.bvgd.engine_4294425132
 	link = launchClamp1_4294424752
-	link = WING.R7_4294208038
-	sym = r7.blok.bvgd.sput_4294426342
-	sym = r7.blok.bvgd.sput_4294425776
-	sym = r7.blok.bvgd.sput_4294424644
-	srfN = srfAttach,r7.blok.a.sput_4294427248
-	attN = top,r7.bvgd.engine_4294425132
-	attN = wing,WING.R7_4294208038
+	link = rn.WING.R7_4294208038
+	sym = rn.r7.blok.bvgd_4294426342
+	sym = rn.r7.blok.bvgd_4294425776
+	sym = rn.r7.blok.bvgd_4294424644
+	srfN = srfAttach,rn.r7.blok.a_4294427248
+	attN = top,rn.r7.bvgd.engine_4294425132
+	attN = wing,rn.WING.R7_4294208038
 	EVENTS
 	{
 	}
@@ -4472,7 +4472,7 @@ PART
 }
 PART
 {
-	part = r7.bvgd.engine_4294425132
+	part = rn.r7.bvgd.engine_4294425132
 	partName = Part
 	pos = 1.158902,1.825403,3.091991E-06
 	attPos = 0,0,0
@@ -4491,14 +4491,14 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.vernier.engine.v.fg_4294424972
-	link = r7.vernier.engine.v.fg_4294424862
-	sym = r7.bvgd.engine_4294426264
-	sym = r7.bvgd.engine_4294425698
-	sym = r7.bvgd.engine_4294424566
-	attN = top,r7.blok.bvgd.sput_4294425210
-	attN = 1,r7.vernier.engine.v.fg_4294424972
-	attN = 2,r7.vernier.engine.v.fg_4294424862
+	link = rn.r7.vernier.engine.v.fg_4294424972
+	link = rn.r7.vernier.engine.v.fg_4294424862
+	sym = rn.r7.bvgd.engine_4294426264
+	sym = rn.r7.bvgd.engine_4294425698
+	sym = rn.r7.bvgd.engine_4294424566
+	attN = top,rn.r7.blok.bvgd_4294425210
+	attN = 1,rn.r7.vernier.engine.v.fg_4294424972
+	attN = 2,rn.r7.vernier.engine.v.fg_4294424862
 	EVENTS
 	{
 	}
@@ -4660,7 +4660,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294424972
+	part = rn.r7.vernier.engine.v.fg_4294424972
 	partName = Part
 	pos = 2.802068,1.133701,-0.4375777
 	attPos = 0,0,0
@@ -4679,10 +4679,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426104
-	sym = r7.vernier.engine.v.fg_4294425538
-	sym = r7.vernier.engine.v.fg_4294424406
-	attN = top,r7.bvgd.engine_4294425132
+	sym = rn.r7.vernier.engine.v.fg_4294426104
+	sym = rn.r7.vernier.engine.v.fg_4294425538
+	sym = rn.r7.vernier.engine.v.fg_4294424406
+	attN = top,rn.r7.bvgd.engine_4294425132
 	EVENTS
 	{
 	}
@@ -4926,7 +4926,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294424862
+	part = rn.r7.vernier.engine.v.fg_4294424862
 	partName = Part
 	pos = 2.802068,1.133701,0.4346943
 	attPos = 0,0,0
@@ -4945,10 +4945,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294425994
-	sym = r7.vernier.engine.v.fg_4294425428
-	sym = r7.vernier.engine.v.fg_4294424296
-	attN = top,r7.bvgd.engine_4294425132
+	sym = rn.r7.vernier.engine.v.fg_4294425994
+	sym = rn.r7.vernier.engine.v.fg_4294425428
+	sym = rn.r7.vernier.engine.v.fg_4294424296
+	attN = top,rn.r7.bvgd.engine_4294425132
 	EVENTS
 	{
 	}
@@ -5214,7 +5214,7 @@ PART
 	sym = launchClamp1_4294425884
 	sym = launchClamp1_4294425318
 	sym = launchClamp1_4294424186
-	srfN = srfAttach,r7.blok.bvgd.sput_4294425210
+	srfN = srfAttach,rn.r7.blok.bvgd_4294425210
 	EVENTS
 	{
 	}
@@ -5325,7 +5325,7 @@ PART
 }
 PART
 {
-	part = WING.R7_4294208038
+	part = rn.WING.R7_4294208038
 	partName = Winglet
 	pos = 3.197302,1.887203,5.729333E-06
 	attPos = 0,0,0
@@ -5344,10 +5344,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = WING.R7_4294208176
-	sym = WING.R7_4294208080
-	sym = WING.R7_4294207996
-	attN = top,r7.blok.bvgd.sput_4294425210
+	sym = rn.WING.R7_4294208176
+	sym = rn.WING.R7_4294208080
+	sym = rn.WING.R7_4294207996
+	attN = top,rn.r7.blok.bvgd_4294425210
 	EVENTS
 	{
 	}
@@ -5408,7 +5408,7 @@ PART
 }
 PART
 {
-	part = r7.blok.bvgd.sput_4294424644
+	part = rn.r7.blok.bvgd_4294424644
 	partName = Part
 	pos = 1.788139E-06,12.32875,-0.8234966
 	attPos = 0,0,0
@@ -5427,15 +5427,15 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.bvgd.engine_4294424566
+	link = rn.r7.bvgd.engine_4294424566
 	link = launchClamp1_4294424186
-	link = WING.R7_4294207996
-	sym = r7.blok.bvgd.sput_4294426342
-	sym = r7.blok.bvgd.sput_4294425776
-	sym = r7.blok.bvgd.sput_4294425210
-	srfN = srfAttach,r7.blok.a.sput_4294427248
-	attN = top,r7.bvgd.engine_4294424566
-	attN = wing,WING.R7_4294207996
+	link = rn.WING.R7_4294207996
+	sym = rn.r7.blok.bvgd_4294426342
+	sym = rn.r7.blok.bvgd_4294425776
+	sym = rn.r7.blok.bvgd_4294425210
+	srfN = srfAttach,rn.r7.blok.a_4294427248
+	attN = top,rn.r7.bvgd.engine_4294424566
+	attN = wing,rn.WING.R7_4294207996
 	EVENTS
 	{
 	}
@@ -5572,7 +5572,7 @@ PART
 }
 PART
 {
-	part = r7.bvgd.engine_4294424566
+	part = rn.r7.bvgd.engine_4294424566
 	partName = Part
 	pos = 4.768335E-06,1.825403,-1.158897
 	attPos = 0,0,0
@@ -5591,14 +5591,14 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	link = r7.vernier.engine.v.fg_4294424406
-	link = r7.vernier.engine.v.fg_4294424296
-	sym = r7.bvgd.engine_4294426264
-	sym = r7.bvgd.engine_4294425698
-	sym = r7.bvgd.engine_4294425132
-	attN = top,r7.blok.bvgd.sput_4294424644
-	attN = 1,r7.vernier.engine.v.fg_4294424406
-	attN = 2,r7.vernier.engine.v.fg_4294424296
+	link = rn.r7.vernier.engine.v.fg_4294424406
+	link = rn.r7.vernier.engine.v.fg_4294424296
+	sym = rn.r7.bvgd.engine_4294426264
+	sym = rn.r7.bvgd.engine_4294425698
+	sym = rn.r7.bvgd.engine_4294425132
+	attN = top,rn.r7.blok.bvgd_4294424644
+	attN = 1,rn.r7.vernier.engine.v.fg_4294424406
+	attN = 2,rn.r7.vernier.engine.v.fg_4294424296
 	EVENTS
 	{
 	}
@@ -5760,7 +5760,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294424406
+	part = rn.r7.vernier.engine.v.fg_4294424406
 	partName = Part
 	pos = -0.4375767,1.133701,-2.802067
 	attPos = 0,0,0
@@ -5779,10 +5779,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294426104
-	sym = r7.vernier.engine.v.fg_4294425538
-	sym = r7.vernier.engine.v.fg_4294424972
-	attN = top,r7.bvgd.engine_4294424566
+	sym = rn.r7.vernier.engine.v.fg_4294426104
+	sym = rn.r7.vernier.engine.v.fg_4294425538
+	sym = rn.r7.vernier.engine.v.fg_4294424972
+	attN = top,rn.r7.bvgd.engine_4294424566
 	EVENTS
 	{
 	}
@@ -6026,7 +6026,7 @@ PART
 }
 PART
 {
-	part = r7.vernier.engine.v.fg_4294424296
+	part = rn.r7.vernier.engine.v.fg_4294424296
 	partName = Part
 	pos = 0.4346894,1.133701,-2.802063
 	attPos = 0,0,0
@@ -6045,10 +6045,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = r7.vernier.engine.v.fg_4294425994
-	sym = r7.vernier.engine.v.fg_4294425428
-	sym = r7.vernier.engine.v.fg_4294424862
-	attN = top,r7.bvgd.engine_4294424566
+	sym = rn.r7.vernier.engine.v.fg_4294425994
+	sym = rn.r7.vernier.engine.v.fg_4294425428
+	sym = rn.r7.vernier.engine.v.fg_4294424862
+	attN = top,rn.r7.bvgd.engine_4294424566
 	EVENTS
 	{
 	}
@@ -6314,7 +6314,7 @@ PART
 	sym = launchClamp1_4294425884
 	sym = launchClamp1_4294425318
 	sym = launchClamp1_4294424752
-	srfN = srfAttach,r7.blok.bvgd.sput_4294424644
+	srfN = srfAttach,rn.r7.blok.bvgd_4294424644
 	EVENTS
 	{
 	}
@@ -6425,7 +6425,7 @@ PART
 }
 PART
 {
-	part = WING.R7_4294207996
+	part = rn.WING.R7_4294207996
 	partName = Winglet
 	pos = 4.915956E-06,1.887203,-3.197294
 	attPos = 0,0,0
@@ -6444,10 +6444,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	sym = WING.R7_4294208176
-	sym = WING.R7_4294208080
-	sym = WING.R7_4294208038
-	attN = top,r7.blok.bvgd.sput_4294424644
+	sym = rn.WING.R7_4294208176
+	sym = rn.WING.R7_4294208080
+	sym = rn.WING.R7_4294208038
+	attN = top,rn.r7.blok.bvgd_4294424644
 	EVENTS
 	{
 	}
@@ -6508,7 +6508,7 @@ PART
 }
 PART
 {
-	part = sputnik1.nosecone_4291486518
+	part = rn.sputnik1.nosecone_4291486518
 	partName = Part
 	pos = 1.788139E-06,24.1749,3.091991E-06
 	attPos = 0,0,0
@@ -6527,7 +6527,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = (0.0, 0.0, 0.0)
-	attN = bottom,sputnik1.base_4291486572
+	attN = bottom,rn.sputnik1.base_4291486572
 	EVENTS
 	{
 	}
@@ -6597,7 +6597,7 @@ PART
 	sym = strutConnector_4292399348
 	sym = strutConnector_4292399284
 	sym = strutConnector_4292399220
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -6658,7 +6658,7 @@ PART
 	sym = strutConnector_4292399650
 	sym = strutConnector_4292399284
 	sym = strutConnector_4292399220
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -6719,7 +6719,7 @@ PART
 	sym = strutConnector_4292399650
 	sym = strutConnector_4292399348
 	sym = strutConnector_4292399220
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -6780,7 +6780,7 @@ PART
 	sym = strutConnector_4292399650
 	sym = strutConnector_4292399348
 	sym = strutConnector_4292399284
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -6841,7 +6841,7 @@ PART
 	sym = strutConnector_4292398224
 	sym = strutConnector_4292398160
 	sym = strutConnector_4292398096
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -6902,7 +6902,7 @@ PART
 	sym = strutConnector_4292398504
 	sym = strutConnector_4292398160
 	sym = strutConnector_4292398096
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -6963,7 +6963,7 @@ PART
 	sym = strutConnector_4292398504
 	sym = strutConnector_4292398224
 	sym = strutConnector_4292398096
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
@@ -7024,7 +7024,7 @@ PART
 	sym = strutConnector_4292398504
 	sym = strutConnector_4292398224
 	sym = strutConnector_4292398160
-	srfN = srfAttach,r7.blok.a.sput_4294427248
+	srfN = srfAttach,rn.r7.blok.a_4294427248
 	EVENTS
 	{
 	}
