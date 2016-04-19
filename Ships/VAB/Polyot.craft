@@ -1,15 +1,15 @@
 ship = Polyot
 version = 1.1.0
-description = A Soviet military satellite capable of intercepting and destroying enemy satellites in orbit. 
+description = A Soviet military satellite capable of intercepting and destroying enemy satellites in orbit.
 type = VAB
-size = 10.77853,33.34594,10.77855
+size = 10.77853,30.35128,10.77856
 PART
 {
 	part = polyot_4294291288
 	partName = Part
-	pos = 0.005475253,27.55454,-0.03389293
+	pos = 0.005476952,24.55989,-0.0338985
 	attPos = 0,0,0
-	attPos0 = 0.005475253,27.55454,-0.03389293
+	attPos0 = 0.005476952,24.55989,-0.0338985
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -431,116 +431,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleDataTransmitter
-		isEnabled = True
-		xmitIncomplete = False
-		stagingEnabled = True
-		EVENTS
-		{
-			StartTransmission
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Transmit Data
-				guiName = Transmit Data
-				category = Transmit Data
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			TransmitIncompleteToggle
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Toggle Transmit Incomplete
-				guiName = Require Complete
-				category = Toggle Transmit Incomplete
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			StopTransmission
-			{
-				active = False
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Stop Transmitting
-				guiName = Stop Transmitting
-				category = Stop Transmitting
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCrewAssignment
-		isEnabled = True
-		slotAssignments = 
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
-		name = TRReflection
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleScienceExperiment
 		isEnabled = True
 		Deployed = False
@@ -656,6 +546,67 @@ PART
 			{
 				actionGroup = None
 			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+			StartTransmission
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Transmit Data
+				guiName = Transmit Data
+				category = Transmit Data
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			TransmitIncompleteToggle
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Toggle Transmit Incomplete
+				guiName = Require Complete
+				category = Toggle Transmit Incomplete
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			StopTransmission
+			{
+				active = False
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Stop Transmitting
+				guiName = Stop Transmitting
+				category = Stop Transmitting
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
 		}
 	}
 	MODULE
@@ -1058,9 +1009,6 @@ PART
 			MechJebModuleCustomInfoWindow
 			{
 			}
-			MechJebModuleCustomInfoWindow
-			{
-			}
 			MechJebModuleWarpController
 			{
 				unlockParts = 
@@ -1218,7 +1166,7 @@ PART
 {
 	part = polyot.side.engine_4294290946
 	partName = Part
-	pos = 0.005475253,27.55454,0.4403951
+	pos = 0.005476952,24.55989,0.4403895
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,0,1
@@ -1324,7 +1272,7 @@ PART
 {
 	part = polyot.side.engine_4294290870
 	partName = Part
-	pos = 0.005475253,27.55454,-0.5081809
+	pos = 0.005476952,24.55989,-0.5081865
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,1,0,0
@@ -1430,7 +1378,7 @@ PART
 {
 	part = polyot.side.engine_4294290794
 	partName = Part
-	pos = -0.4688128,27.55454,-0.03389293
+	pos = -0.4688111,24.55989,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0.7071068,0,-0.7071068
@@ -1536,7 +1484,7 @@ PART
 {
 	part = polyot.side.engine_4294290718
 	partName = Part
-	pos = 0.4797632,27.55454,-0.03389293
+	pos = 0.4797649,24.55989,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.7071068,0,-0.7071068
@@ -1642,7 +1590,7 @@ PART
 {
 	part = rn.r7.adapter.blok.i.m_4292637456
 	partName = Part
-	pos = 0.005475253,25.97566,-0.03389293
+	pos = 0.005476952,22.98101,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,-1.57888,0
 	rot = 0,0,0,1
@@ -1730,7 +1678,7 @@ PART
 {
 	part = rn.r7.vostok.fairing.r_4292634280
 	partName = Part
-	pos = 0.006444007,28.86585,-0.04053293
+	pos = 0.006445706,25.8712,-0.0405385
 	attPos = 0,0,0
 	attPos0 = 0.0009687543,2.89019,-0.00664
 	rot = 0,0,0,1
@@ -1974,7 +1922,7 @@ PART
 {
 	part = rn.r7.vostok.fairing.r_4292627188
 	partName = Part
-	pos = 0.004506499,28.86585,-0.02725284
+	pos = 0.004508198,25.8712,-0.02725841
 	attPos = 0,0,0
 	attPos0 = -0.0009687543,2.89019,0.006640087
 	rot = 0,1,0,-4.371139E-08
@@ -2218,7 +2166,7 @@ PART
 {
 	part = rn.r7.blok.a_4293771912
 	partName = Part
-	pos = 0.005475253,13.75546,-0.03389293
+	pos = 0.005476952,10.76081,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,-12.2202,0
 	rot = 0,0,0,1
@@ -2565,7 +2513,7 @@ PART
 {
 	part = rn.r7.blok.a.engine_4293771732
 	partName = Part
-	pos = 0.005475253,4.692585,-0.03389293
+	pos = 0.005476952,1.697935,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,0,1
@@ -2845,7 +2793,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -2853,7 +2801,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293771438
 	partName = Part
-	pos = 0.8864982,4.236866,-0.03389293
+	pos = 0.8864999,1.242216,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0,0,1
@@ -3125,7 +3073,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -3133,7 +3081,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293771328
 	partName = Part
-	pos = -0.8755478,4.236866,-0.03389293
+	pos = -0.8755461,1.242216,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,1,0,0
@@ -3405,7 +3353,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -3413,7 +3361,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293771218
 	partName = Part
-	pos = 0.005475253,4.236866,-0.9149135
+	pos = 0.005476952,1.242216,-0.914919
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,0.7071068,0,0.7071068
@@ -3685,7 +3633,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -3693,7 +3641,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293771108
 	partName = Part
-	pos = 0.005475253,4.236866,0.8471267
+	pos = 0.005476952,1.242216,0.8471211
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0,-0.7071068,0,0.7071068
@@ -3965,7 +3913,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -3973,7 +3921,7 @@ PART
 {
 	part = rn.r7.blok.bvgd_4293770998
 	partName = Part
-	pos = -0.8148093,15.5385,-0.03389293
+	pos = -0.8148077,12.54385,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -1.368573E-07,0,2.612306E-06,-1
@@ -3985,7 +3933,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -4322,7 +4270,7 @@ PART
 {
 	part = rn.r7.bvgd.engine_4293770920
 	partName = Part
-	pos = -1.150205,5.035145,-0.03389293
+	pos = -1.150203,2.040495,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -4.547474E-13,-0.7071068,-2.202682E-13,0.7071068
@@ -4334,7 +4282,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4601,7 +4549,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -4609,10 +4557,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293770760
 	partName = Part
-	pos = -2.793371,4.343437,-0.4685844
+	pos = -2.79337,1.348787,-0.4685901
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 2.273737E-13,1,-5.684342E-14,-5.963112E-19
+	rot = 0,1,0,-5.14996E-19
 	attRot = 0,0.9999999,0,0
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -4621,7 +4569,7 @@ PART
 	dstg = 4
 	sidx = 1
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -4884,7 +4832,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -4892,10 +4840,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293770650
 	partName = Part
-	pos = -2.793374,4.343437,0.4036882
+	pos = -2.793373,1.348787,0.4036827
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = 2.273737E-13,1,-5.684342E-14,-5.963112E-19
+	rot = 0,1,0,-5.14996E-19
 	attRot = 0,0.9999999,0,0
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -4904,7 +4852,7 @@ PART
 	dstg = 4
 	sidx = 2
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5167,7 +5115,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -5175,7 +5123,7 @@ PART
 {
 	part = launchClamp1_4293770540
 	partName = Part
-	pos = -3.942663,4.387535,-0.03794319
+	pos = -3.942661,1.392885,-0.03794876
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.02236521,0.7068191,-0.02017123,0.706753
@@ -5187,7 +5135,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5209,8 +5157,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.022259
-		height = 5.102554
+		scaleFactor = 0.8354116
+		height = 2.107906
 		stagingEnabled = True
 		towerRot = -0.02236521,-0.7068191,0.02017123,0.706753
 		EVENTS
@@ -5346,61 +5294,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		stagingEnabled = True
-		EVENTS
-		{
-			MakeReference
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Control From Here
-				guiName = Control From Here
-				category = Control From Here
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			RenameVessel
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = True
-				guiIcon = Rename Vessel
-				guiName = Rename Vessel
-				category = Rename Vessel
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
 	part = rn.WING.R7_4294412516
 	partName = Winglet
-	pos = -3.188604,5.096952,-0.03389578
+	pos = -3.188602,2.102303,-0.03390135
 	attPos = 0,0,0
 	attPos0 = -2.373741,-10.44156,1.31394E-08
 	rot = 0,0,0,1
@@ -5412,7 +5311,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -5511,7 +5410,7 @@ PART
 {
 	part = rn.r7.blok.bvgd_4293770432
 	partName = Part
-	pos = 0.005475253,15.5385,0.7863966
+	pos = 0.005476952,12.54385,0.786391
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 1.750407E-06,-0.7071068,1.943952E-06,-0.7071068
@@ -5523,7 +5422,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -5860,10 +5759,10 @@ PART
 {
 	part = rn.r7.bvgd.engine_4293770354
 	partName = Part
-	pos = 0.005475253,5.035145,1.121788
+	pos = 0.005476952,2.040495,1.121782
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -4.547474E-13,4.336809E-19,2.273737E-13,1
+	rot = -3.410605E-13,8.673617E-19,3.410605E-13,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -5872,7 +5771,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6139,7 +6038,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -6147,7 +6046,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293770194
 	partName = Part
-	pos = -0.4292161,4.343437,2.764958
+	pos = -0.4292146,1.348787,2.764952
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 2.273737E-13,0.7071069,-1.136868E-13,-0.7071069
@@ -6159,7 +6058,7 @@ PART
 	dstg = 4
 	sidx = 1
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6422,7 +6321,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -6430,7 +6329,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293770084
 	partName = Part
-	pos = 0.4430573,4.343437,2.764958
+	pos = 0.4430591,1.348787,2.764953
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 2.273737E-13,0.7071069,-1.136868E-13,-0.7071069
@@ -6442,7 +6341,7 @@ PART
 	dstg = 4
 	sidx = 2
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -6705,7 +6604,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -6713,7 +6612,7 @@ PART
 {
 	part = launchClamp1_4293769974
 	partName = Part
-	pos = 0.00142505,4.387535,3.914255
+	pos = 0.001426748,1.392885,3.91425
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 0.001551378,0.9995464,-0.03007781,-4.679905E-05
@@ -6725,7 +6624,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -6747,8 +6646,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.022259
-		height = 5.102554
+		scaleFactor = 0.8354116
+		height = 2.107906
 		stagingEnabled = True
 		towerRot = -0.001551378,-0.9995464,0.03007781,-4.679905E-05
 		EVENTS
@@ -6884,64 +6783,15 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		stagingEnabled = True
-		EVENTS
-		{
-			MakeReference
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Control From Here
-				guiName = Control From Here
-				category = Control From Here
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			RenameVessel
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = True
-				guiIcon = Rename Vessel
-				guiName = Rename Vessel
-				category = Rename Vessel
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
 	part = rn.WING.R7_4294412390
 	partName = Winglet
-	pos = 0.005472691,5.096952,3.160193
+	pos = 0.00547439,2.102303,3.160188
 	attPos = 0,0,0
 	attPos0 = -2.373741,-10.44156,1.313171E-08
-	rot = 5.684342E-13,0.7071068,9.663381E-13,0.7071068
+	rot = 6.82121E-13,0.7071068,9.947598E-13,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 1.368573E-07,1.03706E-18,-2.612306E-06,-1
 	mir = 1,1,1
@@ -6950,7 +6800,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7049,7 +6899,7 @@ PART
 {
 	part = rn.r7.blok.bvgd_4293769866
 	partName = Part
-	pos = 0.8257591,15.5385,-0.03389293
+	pos = 0.8257608,12.54385,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 2.612306E-06,-1,1.368571E-07,4.371139E-08
@@ -7061,7 +6911,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -7398,10 +7248,10 @@ PART
 {
 	part = rn.r7.bvgd.engine_4293769788
 	partName = Part
-	pos = 1.161155,5.035145,-0.03389293
+	pos = 1.161157,2.040495,-0.0338985
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -1.98952E-13,0.7071068,1.705303E-12,0.7071068
+	rot = -1.98952E-13,0.7071068,1.818989E-12,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -7410,7 +7260,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7677,7 +7527,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -7685,10 +7535,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293769628
 	partName = Part
-	pos = 2.804322,4.343437,0.4007974
+	pos = 2.804324,1.348787,0.400792
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -2.842171E-14,-4.371139E-08,0,-1
+	rot = -5.684342E-14,-4.371139E-08,0,-1
 	attRot = 0,0.9999999,0,0
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -7697,7 +7547,7 @@ PART
 	dstg = 4
 	sidx = 1
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -7960,7 +7810,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -7968,10 +7818,10 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293769518
 	partName = Part
-	pos = 2.804322,4.343437,-0.4714739
+	pos = 2.804324,1.348787,-0.4714796
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -2.842171E-14,-4.371139E-08,0,-1
+	rot = -5.684342E-14,-4.371139E-08,0,-1
 	attRot = 0,0.9999999,0,0
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -7980,7 +7830,7 @@ PART
 	dstg = 4
 	sidx = 2
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8243,7 +8093,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -8251,7 +8101,7 @@ PART
 {
 	part = launchClamp1_4293769408
 	partName = Part
-	pos = 3.953612,4.387535,-0.02984363
+	pos = 3.953614,1.392885,-0.0298492
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -0.02017123,0.706753,-0.02236521,-0.7068191
@@ -8263,7 +8113,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8285,8 +8135,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.022259
-		height = 5.102554
+		scaleFactor = 0.8354116
+		height = 2.107906
 		stagingEnabled = True
 		towerRot = 0.02017123,-0.706753,0.02236521,-0.7068191
 		EVENTS
@@ -8422,64 +8272,15 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		stagingEnabled = True
-		EVENTS
-		{
-			MakeReference
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Control From Here
-				guiName = Control From Here
-				category = Control From Here
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			RenameVessel
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = True
-				guiIcon = Rename Vessel
-				guiName = Rename Vessel
-				category = Rename Vessel
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
 	part = rn.WING.R7_4294412348
 	partName = Winglet
-	pos = 3.199554,5.096952,-0.03389029
+	pos = 3.199556,2.102303,-0.03389586
 	attPos = 0,0,0
 	attPos0 = -2.37374,-10.44156,1.313874E-08
-	rot = -3.019231E-26,1,8.526513E-14,-4.371139E-08
+	rot = -3.048336E-26,1,8.526513E-14,-4.371139E-08
 	attRot = 0,0,0,1
 	attRot0 = 1.368573E-07,2.206119E-19,-2.612306E-06,-1
 	mir = 1,1,1
@@ -8488,7 +8289,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -8587,7 +8388,7 @@ PART
 {
 	part = rn.r7.blok.bvgd_4293769300
 	partName = Part
-	pos = 0.005475253,15.5385,-0.8541729
+	pos = 0.005476952,12.54385,-0.8541784
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 1.943952E-06,-0.7071068,-1.750407E-06,0.7071068
@@ -8599,7 +8400,7 @@ PART
 	dstg = 3
 	sidx = 0
 	sqor = 4
-	sepI = 5
+	sepI = 4
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -8936,7 +8737,7 @@ PART
 {
 	part = rn.r7.bvgd.engine_4293769222
 	partName = Part
-	pos = 0.005475253,5.035145,-1.189574
+	pos = 0.005476952,2.040495,-1.18958
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = 1.136868E-13,1,3.410605E-13,-3.402707E-12
@@ -8948,7 +8749,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9215,7 +9016,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -9223,7 +9024,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293769062
 	partName = Part
-	pos = 0.4401662,4.343437,-2.832737
+	pos = 0.4401681,1.348787,-2.832743
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -1.136868E-13,-0.7071069,-2.273737E-13,-0.7071069
@@ -9235,7 +9036,7 @@ PART
 	dstg = 4
 	sidx = 1
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9498,7 +9299,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -9506,7 +9307,7 @@ PART
 {
 	part = rn.r7.vernier.engine.v.fg_4293768952
 	partName = Part
-	pos = -0.4321067,4.343437,-2.832741
+	pos = -0.4321051,1.348787,-2.832747
 	attPos = 0,0,0
 	attPos0 = 0,0,0
 	rot = -1.136868E-13,-0.7071069,-2.273737E-13,-0.7071069
@@ -9518,7 +9319,7 @@ PART
 	dstg = 4
 	sidx = 2
 	sqor = 6
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -9781,7 +9582,7 @@ PART
 		flowState = True
 		isTweakable = False
 		hideFlow = True
-		isVisible = True
+		isVisible = False
 		flowMode = Both
 	}
 }
@@ -9789,10 +9590,10 @@ PART
 {
 	part = launchClamp1_4293768842
 	partName = Part
-	pos = 0.009525052,4.387535,-3.982036
+	pos = 0.009526752,1.392885,-3.982043
 	attPos = 0,0,0
 	attPos0 = 0,0,0
-	rot = -0.03007781,-4.678971E-05,-0.001551378,-0.9995465
+	rot = -0.03007781,-4.678971E-05,-0.001551379,-0.9995465
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
@@ -9801,7 +9602,7 @@ PART
 	dstg = 4
 	sidx = 0
 	sqor = 5
-	sepI = 6
+	sepI = 5
 	attm = 1
 	modCost = 0
 	modMass = 0
@@ -9823,10 +9624,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 2.022259
-		height = 5.102554
+		scaleFactor = 0.8354116
+		height = 2.107906
 		stagingEnabled = True
-		towerRot = 0.03007781,4.67897E-05,0.001551377,-0.9995463
+		towerRot = 0.03007781,4.67897E-05,0.001551379,-0.9995463
 		EVENTS
 		{
 			Release
@@ -9960,61 +9761,12 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		stagingEnabled = True
-		EVENTS
-		{
-			MakeReference
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = False
-				guiIcon = Control From Here
-				guiName = Control From Here
-				category = Control From Here
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			RenameVessel
-			{
-				active = True
-				guiActive = True
-				guiActiveUncommand = True
-				guiIcon = Rename Vessel
-				guiName = Rename Vessel
-				category = Rename Vessel
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleStaging
-			{
-				active = True
-				guiActive = False
-				guiActiveUncommand = False
-				guiIcon = Disable Staging
-				guiName = Disable Staging
-				category = Disable Staging
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
 }
 PART
 {
 	part = rn.WING.R7_4294412306
 	partName = Winglet
-	pos = 0.005478381,5.096952,-3.227969
+	pos = 0.00548008,2.102303,-3.227975
 	attPos = 0,0,0
 	attPos0 = -2.373741,-10.44156,1.314481E-08
 	rot = 1.023182E-12,0.7071068,-5.115908E-13,-0.7071068
@@ -10026,7 +9778,7 @@ PART
 	dstg = 4
 	sidx = -1
 	sqor = -1
-	sepI = 5
+	sepI = 4
 	attm = 0
 	modCost = 0
 	modMass = 0
@@ -10125,7 +9877,7 @@ PART
 {
 	part = strutConnector_4292525650
 	partName = CompoundPart
-	pos = -0.8152938,9.649651,-0.03389288
+	pos = -0.8152921,6.655001,-0.03389845
 	attPos = 0,0,0
 	attPos0 = -0.820769,-4.105812,4.892172E-08
 	rot = 0,0,-2.612306E-06,1
@@ -10212,7 +9964,7 @@ PART
 {
 	part = strutConnector_4292525370
 	partName = CompoundPart
-	pos = 0.005475253,9.649651,0.786876
+	pos = 0.005476952,6.655001,0.7868705
 	attPos = 0,0,0
 	attPos0 = 1.136868E-13,-4.105812,0.820769
 	rot = -1.84718E-06,0.7071068,-1.84718E-06,0.7071068
@@ -10299,7 +10051,7 @@ PART
 {
 	part = strutConnector_4292525306
 	partName = CompoundPart
-	pos = 0.8262442,9.649651,-0.03389305
+	pos = 0.8262459,6.655001,-0.03389862
 	attPos = 0,0,0
 	attPos0 = 0.820769,-4.105812,-1.206754E-07
 	rot = -2.612306E-06,1,1.141875E-13,-4.371139E-08
@@ -10386,7 +10138,7 @@ PART
 {
 	part = strutConnector_4292525242
 	partName = CompoundPart
-	pos = 0.005475155,9.649651,-0.8546619
+	pos = 0.005476854,6.655001,-0.8546674
 	attPos = 0,0,0
 	attPos0 = -9.784333E-08,-4.105812,-0.820769
 	rot = -1.84718E-06,0.7071068,1.84718E-06,-0.7071068
@@ -10473,7 +10225,7 @@ PART
 {
 	part = strutConnector_4292524786
 	partName = CompoundPart
-	pos = -0.8163614,11.51789,-0.03389288
+	pos = -0.8163598,8.523239,-0.03389845
 	attPos = 0,0,0
 	attPos0 = -0.8218366,-2.237577,4.898538E-08
 	rot = 0,0,-2.612306E-06,1
@@ -10560,7 +10312,7 @@ PART
 {
 	part = strutConnector_4292524506
 	partName = CompoundPart
-	pos = 0.005475253,11.51789,0.7879436
+	pos = 0.005476952,8.523239,0.787938
 	attPos = 0,0,0
 	attPos0 = 1.136868E-13,-2.237577,0.8218365
 	rot = -1.84718E-06,0.7071068,-1.84718E-06,0.7071068
@@ -10647,7 +10399,7 @@ PART
 {
 	part = strutConnector_4292524442
 	partName = CompoundPart
-	pos = 0.8273119,11.51789,-0.03389305
+	pos = 0.8273135,8.523239,-0.03389862
 	attPos = 0,0,0
 	attPos0 = 0.8218366,-2.237577,-1.208318E-07
 	rot = -2.612306E-06,1,1.141875E-13,-4.371139E-08
@@ -10734,7 +10486,7 @@ PART
 {
 	part = strutConnector_4292524378
 	partName = CompoundPart
-	pos = 0.005475155,11.51789,-0.8557295
+	pos = 0.005476854,8.523239,-0.8557351
 	attPos = 0,0,0
 	attPos0 = -9.797066E-08,-2.237577,-0.8218365
 	rot = -1.84718E-06,0.7071068,1.84718E-06,-0.7071068
