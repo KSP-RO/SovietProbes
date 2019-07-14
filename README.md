@@ -14,9 +14,6 @@ This is a long term project and I will slowly be adding probes to it over time.
 ##Install instructions:
 * Download and install mod from here
 
-* Install dependencies for KSP 1.2.x from here: https://www.dropbox.com/s/paqjbizbmxfhdqc/RN_Dependencies_KSP_v1.2.x.zip?dl=0
-* Install dependencies for KSP 1.3.x from here: https://www.dropbox.com/s/7yly4uu89bixvcl/RN_Dependencies_KSP_v1.3.x.zip?dl=0
-
 ##NOTES ON HOW TO FLY LUNA 9:
 * 1) Use Block L for trans-munar injection
 * 2) When close to the Mun, decouple the ASTRO and Radio units.
